@@ -1,0 +1,12 @@
+package com.java.classes.child;
+
+import com.java.classes.Friend;
+
+public class SchoolFriend extends Friend{
+	
+	String school;
+
+	public void saySchool(String sch){
+		this.school = sch;
+	}
+}

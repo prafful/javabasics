@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.java.classes.Friend"/>
+<fullyQualifiedTypeName name="com.java.classes.child.FamilyFriend"/>
+<fullyQualifiedTypeName name="com.java.classes.child.grandchild.PrimarySchoolFriends"/>
+<fullyQualifiedTypeName name="com.java.classes.child.SchoolFriend"/>
+<fullyQualifiedTypeName name="com.java.classes.abstractclass.InteriorDecoration"/>
+<fullyQualifiedTypeName name="com.java.classes.abstractclass.HomeInterior"/>
+<fullyQualifiedTypeName name="com.java.classes.myinterface.Building"/>
+<fullyQualifiedTypeName name="com.java.classes.WalletInterface.HDFCWallet"/>
+<fullyQualifiedTypeName name="com.java.classes.WalletInterface.RBLWallet"/>
+<fullyQualifiedTypeName name="com.java.classes.WalletInterface.WalletValue"/>
+<fullyQualifiedTypeName name="com.java.classes.WalletInterface.SBIWallet"/>
+<fullyQualifiedTypeName name="com.java.classes.encapsulation.Accounts"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="com.java.basics.sort.ArraySortExample"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

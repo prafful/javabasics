@@ -1,0 +1,12 @@
+package com.java.classes.child;
+
+import com.java.classes.Friend;
+
+public class FamilyFriend extends Friend{
+	
+	String relation;
+	
+	void sayRelation(String rel){
+		this.relation=  rel;
+	}
+}

@@ -1,0 +1,11 @@
+package com.java.basics.sort;
+
+public class ArraySortExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] scores = {124, 54, 89,1,0,58,22,88}
+
+	}
+
+}

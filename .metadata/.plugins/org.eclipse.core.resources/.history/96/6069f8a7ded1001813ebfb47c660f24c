@@ -1,0 +1,11 @@
+package com.java.classes.encapsulation;
+
+public class Accounts {
+	
+	private double  balance;
+	private String name;
+	
+	
+	
+
+}

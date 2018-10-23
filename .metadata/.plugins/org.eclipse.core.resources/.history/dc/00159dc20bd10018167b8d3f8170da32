@@ -1,0 +1,18 @@
+package com.java.controlstatements;
+
+public class ControlStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int age1 = 30;
+		int age2 = 36;
+		/*if (age1 >= 30 && age2 >=40  ) {
+			System.out.println("I am 30");
+		}*/
+		
+		System.out.println("Control Statement Example");
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.java.classes.abstractclass;
+
+public class HomeInterior extends InteriorDecoration{
+	
+	public void decorate(){
+		System.out.println("Home Interior Decoration");
+	}
+
+}

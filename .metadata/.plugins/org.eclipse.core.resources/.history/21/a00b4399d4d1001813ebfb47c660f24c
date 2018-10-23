@@ -1,0 +1,21 @@
+package com.java.classes.child;
+
+import com.java.classes.Friend;
+
+public class SchoolFriend extends Friend{
+	
+	String school;
+
+	public void saySchool(String sch){
+		this.school = sch;
+		System.out.println(this.school);
+	}
+	
+	public String message(){
+		return "We are friends from school days!!!!";
+	}
+	
+	public static String myStatus(){
+		return "PRIVATE";
+	}
+}

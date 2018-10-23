@@ -1,0 +1,17 @@
+package com.java.controlstatements;
+
+public class ControlStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int age = 30;
+		if (false) {
+			System.out.println("I am true");
+		}
+		
+		System.out.println("Control Statement Example");
+
+	}
+
+}

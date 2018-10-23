@@ -1,0 +1,60 @@
+package com.basics.java;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+
+public class CollectionTypes {
+
+	public static void main(String[] args) {
+	
+		//ArrayList, LinkedList, HashMap, HashSet
+		List friends = new ArrayList();
+		friends.add("Oma");
+		friends.add("Tika");
+		friends.add("Mina");
+		System.out.println("ArrayList: " + friends);
+		
+		List cities = new LinkedList();
+		cities.add("Chennai");
+		cities.add("Pune");
+		cities.add("Mumbai");
+		System.out.println("LinkedList: " + cities);
+		
+		Map scores = new HashMap();
+		scores.put("Oma", 13);
+		scores.put("Tika", 17);
+		scores.put("Mina", 22);
+		System.out.println("HashMap: " + scores);
+		
+		List friendsNew = new ArrayList();
+		
+		friendsNew.addAll(friends);
+		System.out.println(friendsNew);
+		System.out.println(friendsNew.size());
+		System.out.println(friendsNew.isEmpty());
+		System.out.println("#### clearing friendsNew ####");
+		friendsNew.clear();
+		System.out.println(friendsNew);
+		System.out.println(friendsNew.size());
+		System.out.println(friendsNew.isEmpty());
+		System.out.println("#### iterator ####");
+		Iterator<String> iCanBeIterated = cities.iterator();
+		while(iCanBeIterated.hasNext()){
+			System.out.println(iCanBeIterated.next());
+		}
+		System.out.println("#### Update ####");
+		//friends.remove("Oma");
+		
+		friends.add(2, "Pika");
+		System.out.println(friends);
+		System.out.println("Input your name");
+		Scanner input = new Scanner(System.in);
+		String name = input.nextLine(0)
+	}
+
+}

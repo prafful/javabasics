@@ -1,0 +1,31 @@
+package com.java.classes;
+
+public class Friend {
+	int age;
+	String location;
+	int numberOfYears;
+	String name;
+	
+	
+	public Friend(int age, String location, int numberOfYears, String name) {
+		super();
+		this.age = age;
+		this.location = location;
+		this.numberOfYears = numberOfYears;
+		this.name = name;
+	}
+
+	public Friend() {
+		super();
+	}
+	
+	public void printFriend(){
+		System.out.println("Name: " + this.name + " since " + this.numberOfYears + " years" );
+		System.out.println("Location: " + this.location);
+		
+	}
+	
+	
+	
+	
+}

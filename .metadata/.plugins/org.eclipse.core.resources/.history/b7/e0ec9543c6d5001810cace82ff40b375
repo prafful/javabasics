@@ -1,0 +1,19 @@
+package com.java.basics.sort;
+
+import java.util.Arrays;
+
+public class ArraySortExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] scores = {124, 54, 89,1,0,58,22,88};
+		char[] grades = {'A','G','B','D','C'};
+		String[] names ={"Ola", "Uber","Yatra","Skyscanner", "Swiggy"};
+		
+		System.out.println("Original: " + Arrays.toString(scores));
+		System.out.println("Sorted: " + Arrays.sort(scores););
+		
+
+	}
+
+}

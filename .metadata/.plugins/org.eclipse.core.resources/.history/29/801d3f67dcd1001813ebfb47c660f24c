@@ -1,0 +1,8 @@
+package com.java.classes.WalletInterface;
+
+public interface WalletValue {
+	
+		
+	
+
+}

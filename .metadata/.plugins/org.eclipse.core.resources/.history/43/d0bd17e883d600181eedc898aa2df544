@@ -1,0 +1,19 @@
+package com.java.basics.fileio;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+public class FileCopy {
+
+	public static void main(String[] args) {
+		FileInputStream input;
+		FileOutputStream output;
+		
+		input = new FileInputStream("namedetail.txt");
+		output = new FileOutputStream("output.txt");
+		
+		
+
+	}
+
+}

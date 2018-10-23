@@ -1,0 +1,5 @@
+package com.java.classes.myinterface;
+
+public interface Structure {
+
+}

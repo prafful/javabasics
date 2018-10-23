@@ -1,0 +1,14 @@
+package com.basics.java;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollectionTypes {
+
+	public static void main(String[] args) {
+	
+		//ArrayList, LinkedList, HashMap, HashSet
+		List friends = new ArrayList();
+	}
+
+}

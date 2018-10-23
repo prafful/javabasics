@@ -1,0 +1,33 @@
+package com.basics.java;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
+public class CollectionTypes {
+
+	public static void main(String[] args) {
+	
+		//ArrayList, LinkedList, HashMap, HashSet
+		List friends = new ArrayList();
+		friends.add("Oma");
+		friends.add("Tika");
+		friends.add("Mina");
+		System.out.println("ArrayList: " + friends);
+		
+		List cities = new LinkedList();
+		cities.add("Chennai");
+		cities.add("Pune");
+		cities.add("Mumbai");
+		System.out.println("LinkedList: " + cities);
+		
+		Map scores = new HashMap();
+		scores.put("Oma", 13);
+		scores.put("Tika", 17);
+		scores.put("Mina", 22)
+		
+	}
+
+}

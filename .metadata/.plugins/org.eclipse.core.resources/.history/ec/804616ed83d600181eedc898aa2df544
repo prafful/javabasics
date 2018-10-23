@@ -1,0 +1,24 @@
+package com.java.basics.fileio;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class FileCopy {
+
+	public static void main(String[] args)  throws FileNotFoundException{
+		FileInputStream input;
+		FileOutputStream output;
+		
+		input = new FileInputStream("namedetail.txt");
+		output = new FileOutputStream("output.txt");
+		
+		/*
+		 * problem which happens during the execution of the program - inspite of 
+		 * the code being correct leads to something called exceptions!!!
+		 * 
+		 */
+
+	}
+
+}

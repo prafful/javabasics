@@ -1,0 +1,13 @@
+package com.javabasics.arrays;
+
+public class ArrayBasics {
+
+	public static void main(String[] args) {
+		// Array - data structure to store collection of elements of same data type.
+		
+		//datatype[] variableName;
+		
+
+	}
+
+}

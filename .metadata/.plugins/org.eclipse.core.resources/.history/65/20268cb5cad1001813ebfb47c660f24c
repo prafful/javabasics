@@ -1,0 +1,13 @@
+package com.java.classes.child.grandchild;
+
+import com.java.classes.child.SchoolFriend;
+
+public class PrimarySchoolFriends extends SchoolFriend {
+	
+	int class;
+
+	void sayClass(int cl){
+		this.class = cl;
+	}
+
+}

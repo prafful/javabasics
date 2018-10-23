@@ -1,0 +1,17 @@
+package com.java.strings.basics;
+
+public class StringBasics {
+
+	public static void main(String[] args) {
+		//String - object which represents sequence of char values
+		char[] name = {'p','r','a','f','f','u','l'};
+		String myName = new String(name);
+		String city = "Chennaiismycity";
+		
+		System.out.println(myName + " " + city) ;
+		System.out.println(city.charAt(-1));
+		
+		
+	}
+
+}

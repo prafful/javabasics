@@ -1,0 +1,13 @@
+package com.java.operators;
+
+public class OperatorBasics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number = 10;
+		++number; 						//number = number + 1
+		System.out.println(number);
+
+	}
+
+}

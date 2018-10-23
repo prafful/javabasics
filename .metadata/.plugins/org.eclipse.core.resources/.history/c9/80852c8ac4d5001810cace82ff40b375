@@ -1,0 +1,33 @@
+package com.java.strings.basics;
+
+public class StringBasics {
+
+	public static void main(String[] args) {
+		//String - object which represents sequence of char values
+		char[] name = {'p','r','a','f','f','u','l'};
+		String myName = new String(name);
+		String city = "Chennai";
+		String message = "what are you doing in evening today?";
+		
+		System.out.println(myName + " " + city) ;
+		System.out.println(city.charAt(city.length()-1));
+		String ellia = city.substring(3);
+		System.out.println(ellia);
+		String chancellia = city.substring(2, 6);
+		System.out.println(chancellia);
+		
+		if(message.contains("morning")){
+			System.out.println("Contain");
+		}
+		else{
+			System.out.println("No Contain");
+		}
+		
+		String newMessage = message.replace("evening", "morning");
+		System.out.println(newMessage);
+		System.out.println(message.toUpperCase());
+		String humptydumpty = "    kdsjksjd     ";
+		System.out.println(humptydumpty.trim());
+	}
+
+}

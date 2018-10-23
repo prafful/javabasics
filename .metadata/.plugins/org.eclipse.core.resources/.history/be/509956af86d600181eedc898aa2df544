@@ -1,0 +1,14 @@
+package com.java.basics.filereaderwriter;
+
+import java.io.File;
+
+public class FIleCopyReaderWriter {
+
+	public static void main(String[] args) {
+		
+		File file = new File("sunset.jpg");
+		
+
+	}
+
+}

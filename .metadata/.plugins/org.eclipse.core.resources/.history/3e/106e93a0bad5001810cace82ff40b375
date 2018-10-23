@@ -1,0 +1,44 @@
+package com.javabasics.arrays;
+
+import java.util.Collections;
+
+public class ArrayBasics {
+
+	public static void main(String[] args) {
+		// Array - data structure to store collection of elements of same data type.
+		
+		//datatype[4] variableName;
+		/*
+		 * variableName[0]
+		 * variableName[1]
+		 */
+		
+		int[] score= {5,4,5,6,7}; 
+		System.out.println("Length of array: " + score.length);
+		
+		for(int i=0; i<score.length; i++){
+			System.out.println(score[i]);
+		}
+		System.out.println("######## foreach #########");
+		char[] vowel = {'A','E','I','O','U'};
+		for (char c : vowel) {
+			System.out.println(c);
+		}
+		
+		System.out.println("######## pass array to method #########");
+		sumArray(score);
+		
+
+	}
+
+	private static void sumArray(int[] scr) {
+		int sum = 0;
+		for (int i : scr) {
+			sum = sum + i;
+		}
+		System.out.println("Sum: " + sum);
+		
+		
+	}
+
+}

@@ -1,0 +1,60 @@
+package com.java.mainFriend;
+
+import com.java.classes.Friend;
+import com.java.classes.child.FamilyFriend;
+import com.java.classes.child.SchoolFriend;
+import com.java.classes.child.grandchild.PrimarySchoolFriends;
+
+public class MakeFriend {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Friend f1 = new Friend(31, "Chennai", 1, "Prafful");
+		//Friend f1 = new Friend();
+		//f1.setFriend(31, "Chennai", 1, "Prafful");
+		f1.printPublicFriend();
+		f1.sayHello();
+		System.out.println(Friend.myStatus());
+		
+		System.out.println("########### Child Classess ###########");
+		
+		FamilyFriend f2 = new FamilyFriend();
+		SchoolFriend f3 = new SchoolFriend();
+		PrimarySchoolFriends f4 = new PrimarySchoolFriends();
+
+		f2.sayHello();
+		f3.sayHello();
+		f4.sayHello();
+		f4.saySchool("VEDIC");
+		
+		System.out.println(f4 instanceof PrimarySchoolFriends);
+		//method overloading - class has multiple methods with same name
+		f4.makeFriend();
+		f4.makeFriend("Bahu");
+		//method overriding - child class has the same method as parent class
+		//1. same name
+		//2. same parameter type
+		//3. inheritance should be there
+		//4. 
+		System.out.println(f3.message());
+		System.out.println(f4.message());
+		SchoolFriend f5 = new PrimarySchoolFriends();
+		System.out.println(f5.message());
+		System.out.println("---------trying to override the static method------");
+		System.out.println(Friend.myStatus());
+		System.out.println(SchoolFriend.myStatus());
+		System.out.println("----------Using Super----------------");
+		SchoolFriend f6 - new SchoolFriend(12, "Chennai", 5, "Oma", "VEDIC")
+		
+		/*Inheritance
+		Polymorphism - ability of the class to take many forms
+		Encapsulation
+		Abstraction*/
+		
+		
+		
+		
+
+	}
+
+}

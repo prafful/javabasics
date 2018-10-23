@@ -1,0 +1,12 @@
+package com.java.basics.bufferIO;
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class FileBufferIO{
+	
+	File file = new File("namedetail.txt");
+	FileReader reader = new FileReader(file);
+
+}

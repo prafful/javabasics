@@ -1,0 +1,10 @@
+package com.java.classes;
+
+public class Friend {
+	int age;
+	int location;
+	int numberOfYears;
+	String name;
+	
+	
+}
