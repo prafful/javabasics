@@ -21,7 +21,6 @@ public class JavaJDBCBasics {
 		 */
 		Class.forName("com.mysql.jdbc.Driver"); //1
 		String connectionString = "jdbc:mysql://localhost:3306/bms";
-		//Oracle - jdbc:oracle:thin:@localhost:12345:databaseName
 		Connection connection = DriverManager.getConnection(connectionString, "root", "root"); //2
 		Statement statement = connection.createStatement();
 		ResultSet resultSet = statement.executeQuery("SELECT * FROM user_details");
@@ -32,7 +31,7 @@ public class JavaJDBCBasics {
 			System.out.println("");
 		}
 		connection.close();
-		//CRUD - Create Read Update Delete
+		
 		
 		
 	}

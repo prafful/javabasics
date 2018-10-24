@@ -2,14 +2,13 @@ package com.java.basics.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class JavaJDBCBasics {
+public class JDBCBasicsInsert {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
-		// TODO Auto-generated method stub
 		/*
 		 * 1. Setup the driver manager.
 		 * 2. Setup the connection string to create the connection.
@@ -23,18 +22,23 @@ public class JavaJDBCBasics {
 		String connectionString = "jdbc:mysql://localhost:3306/bms";
 		//Oracle - jdbc:oracle:thin:@localhost:12345:databaseName
 		Connection connection = DriverManager.getConnection(connectionString, "root", "root"); //2
-		Statement statement = connection.createStatement();
-		ResultSet resultSet = statement.executeQuery("SELECT * FROM user_details");
+		//Statement statement = connection.createStatement();
 		
-		while(resultSet.next()){
-			System.out.print(resultSet.getLong(1) + " " + resultSet.getLong(2) + " ");
-			System.out.print(resultSet.getString(3) + " " + resultSet.getString(4));
-			System.out.println("");
+		String insertQuery = "insert into user_details (account_number, account_balance, account_holder_name, account_type) values (?, ?, ?, ?)";
+		PreparedStatement statement = connection.prepareStatement(insertQuery);
+		statement.setLong(1, 1234567890111112L);
+		statement.setLong(2, 4444444L);
+		statement.setString(3, "Prafful Daga");
+		statement.setString(4, "salary");
+		
+		int checkInsert = statement.executeUpdate();
+		if (checkInsert > 0) {
+			System.out.println("Insert is success!!!!");
 		}
-		connection.close();
-		//CRUD - Create Read Update Delete
 		
 		
+		
+
 	}
 
 }
