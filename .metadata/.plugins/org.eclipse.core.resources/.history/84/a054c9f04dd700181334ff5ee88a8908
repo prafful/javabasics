@@ -1,0 +1,26 @@
+package com.java.basics.jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class JavaJDBCBasics {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		// TODO Auto-generated method stub
+		/*
+		 * 1. Setup the driver manager.
+		 * 2. Setup the connection string to create the connection.
+		 * 3. Use above connection to create the statement
+		 * 4. Use above statement to create the query
+		 * 5. Once we fire the query, we get resultset (data)
+		 * 6. Iterate through the resultset to do something with the data
+		 * 7. Close the connection
+		 */
+		Class.forName("com.mysql.jdbc.Driver"); //1
+		String connectionString = "jdbc:mysql://localhost:3306/bms";
+		Connection connection = DriverManager.getConnection(connectionString); 
+		
+		
+	}
+
+}

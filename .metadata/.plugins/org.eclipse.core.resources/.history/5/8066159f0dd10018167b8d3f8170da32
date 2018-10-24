@@ -1,8 +1,0 @@
-package com.java.loops;
-
-public class JavaLoops {
-	public static void main(String[] args) {
-		int i=10;
-		
-	}
-}
