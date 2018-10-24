@@ -1,0 +1,31 @@
+package com.java.basics.enums;
+
+public class BasicEnums {
+	
+	public enum DIRECTION { 
+		EAST, WEST, NORTH, SOUTH;
+		int value;
+		
+		DIRECTION(int value){
+			this.value = value;
+		}
+		
+	}
+	
+	
+
+	public static void main(String[] args) {
+		/*
+		 * Enum - custom datatype which contains FIXED set of constants!!!
+		 * 		- class which has fixed set of constants!!!!
+		 */
+		for(DIRECTION d:DIRECTION.values()){
+			System.out.println(d + " with index value " +);
+		}
+		
+		System.out.println("######## Accessing individula values of enum ########");
+		DIRECTION s = DIRECTION.SOUTH;
+		System.out.println(s);
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.java.basics.enums;
+
+public class BasicEnums {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
