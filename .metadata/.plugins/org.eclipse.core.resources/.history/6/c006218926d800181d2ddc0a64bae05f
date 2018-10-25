@@ -1,0 +1,17 @@
+package com.java8.method.references;
+
+public class Java8MethodReferences {
+
+	public static void main(String[] args) {
+		/*
+		 * You can call method references in 3 ways:
+		 * 1. Reference to static method.
+		 * 2. Reference to instance method
+		 * 3. Reference to constructor
+		 */
+		
+		
+
+	}
+
+}

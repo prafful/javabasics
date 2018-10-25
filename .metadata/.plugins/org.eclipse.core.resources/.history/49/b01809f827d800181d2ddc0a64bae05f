@@ -1,0 +1,36 @@
+package com.java8.method.references;
+
+interface Chat{
+	void sendMessage();
+}
+
+public class Java8MethodReferences {
+
+	public static void message(){
+		System.out.println("This is reference to static method!!!!");
+	}
+	
+	public void messageNotStatic(){
+		System.out.println("This is reference to static method!!!!");
+	}
+	
+	public static void main(String[] args) {
+		/*
+		 * You can call method references in 3 ways:
+		 * 1. Reference to static method.
+		 * 2. Reference to instance method
+		 * 3. Reference to constructor
+		 */
+		Java8MethodReferences j = new Java8MethodReferences();
+		j.message();
+		
+		Chat c = Java8MethodReferences::message;
+		c.sendMessage();
+		
+		Java8MethodReferences j2 = new Java8MethodReferences();
+		
+		
+
+	}
+
+}
