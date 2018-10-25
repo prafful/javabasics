@@ -1,9 +1,0 @@
-package com.java.classes.abstractclass;
-
-abstract class InteriorDecoration {
-	
-	public void decorate(){
-		System.out.println("Basic Interior Decoration");
-	}
-
-}

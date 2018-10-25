@@ -1,0 +1,16 @@
+package com.java.basics.image.blob;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class Image2Blob {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		//setup the driver manager
+		Class.forName("com.mysql.jdbc.Driver");
+		String  connectionString = "";
+		Connection connection = DriverManager.getConnection(connectionString);
+
+	}
+
+}

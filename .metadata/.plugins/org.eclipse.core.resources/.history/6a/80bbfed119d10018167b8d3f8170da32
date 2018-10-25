@@ -1,9 +1,0 @@
-package com.java.classes;
-
-
-
-public class FamilyFriend extends Friend{
-	
-	String relation;
-	
-}

@@ -1,0 +1,28 @@
+package com.java.basics.image.blob;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class Blob2Image {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		//setup the driver manager
+		Class.forName("com.mysql.jdbc.Driver");
+		String  connectionString = "jdbc:mysql://localhost:3306/imageblob";
+		Connection connection = DriverManager.getConnection(connectionString, "root", "root");
+		System.out.println("Database connection is success....");
+		
+		//prepare the statement
+		String sqlQuery = "select image from profileimage where id = ?";
+		PreparedStatement statement = connection.prepareStatement(sqlQuery);
+		statement.setInt(1,1);
+		
+		//execute the statement
+		statement.executeQuery();
+		System.out.println("Image is saved in the database....");
+
+	}
+
+}

@@ -1,5 +1,0 @@
-package com.java.classes.WalletInterface;
-
-public class HDFCWallet implements WalletValue{
-
-}

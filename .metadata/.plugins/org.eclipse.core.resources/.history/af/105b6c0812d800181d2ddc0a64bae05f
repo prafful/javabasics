@@ -1,0 +1,11 @@
+package com.java.basics.image.blob;
+
+public class Image2Blob {
+
+	public static void main(String[] args) {
+		//setup the driver manager
+		Class.forName("com.mysql.jdbc.Driver";)
+
+	}
+
+}

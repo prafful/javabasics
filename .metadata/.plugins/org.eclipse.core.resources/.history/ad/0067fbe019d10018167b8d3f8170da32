@@ -1,7 +1,0 @@
-package com.java.classes.child;
-
-public class SchoolFriend {
-	
-	String school;
-
-}
