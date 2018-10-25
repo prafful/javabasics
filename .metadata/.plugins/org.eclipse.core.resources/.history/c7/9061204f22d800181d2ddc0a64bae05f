@@ -1,0 +1,18 @@
+package com.java8.lambda.expressions;
+
+interface Life{
+	public void live();
+}
+
+
+public class Java8LambdaNoParameter {
+
+	public static void main(String[] args) {
+
+		Life life = () ->{
+			
+		}
+
+	}
+
+}

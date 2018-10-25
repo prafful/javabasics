@@ -1,0 +1,14 @@
+package com.java8.lambda.expressions;
+
+import java.util.ArrayList;
+
+public class Java8LambdaForEach {
+
+	public static void main(String[] args) {
+		
+		List friends = new ArrayList<String>();
+
+
+	}
+
+}

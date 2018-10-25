@@ -1,0 +1,11 @@
+package com.java8.lambda.expressions;
+
+public class LambdaBasics {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello World");
+
+	}
+
+}

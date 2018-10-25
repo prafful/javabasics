@@ -1,0 +1,15 @@
+package com.java8.lambda.expressions;
+
+interface Vehicle{
+	public void Draw();
+}
+
+
+public class Java8LambdaNoParameter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

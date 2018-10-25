@@ -1,0 +1,20 @@
+package com.java8.lambda.expressions;
+
+interface Training{
+	public String topic(String topic, int duration);
+}
+
+public class Java8LambdaWithParameter {
+
+	public static void main(String[] args) {
+		
+		
+		//Object instance = () -> { function body};
+		Training t = (String topic, int duration) -> {
+			return "Training for " + topic " is for "  + duration + " days!!!!"
+		};
+
+		System.out.println(t.topic("java8", 16));	
+	}
+
+}

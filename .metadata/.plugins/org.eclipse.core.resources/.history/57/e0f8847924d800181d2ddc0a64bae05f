@@ -1,0 +1,24 @@
+package com.java8.lambda.expressions;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Java8LambdaForEach {
+
+	public static void main(String[] args) {
+		
+		List friends = new ArrayList<String>();
+		friends.add("Ola");
+		friends.add("Uber");
+		friends.add("Zoomcar");
+		friends.add("Rideshare");
+		
+		System.out.println(friends.toString());
+
+		friends.forEach((eachItem)->{
+			System.out.println("My fav ride sharing app is: " + eachItem);
+		});
+		
+	}
+
+}
